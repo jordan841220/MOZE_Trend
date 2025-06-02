@@ -16,9 +16,9 @@ A containerized **R Shiny** app to visualize expense trends from data exported b
 
 ```
 ### pull from my dockerhub
-docker pull jordan841220/moze-data-analyzer:20250522
+docker pull jordan841220/moze_trend:20250522
 ### run the container
-docker container run -d --rm -p 3838:3838 jordan841220/moze-data-analyzer:20250522
+docker container run -d --rm -p 3838:3838 jordan841220/moze_trend:20250522
 ```
 
 ## Usage
@@ -32,6 +32,9 @@ docker container run -d --rm -p 3838:3838 jordan841220/moze-data-analyzer:202505
     - Rename the UTF-8 CSV file to .txt.
 3. Upload the resulting .txt file via the Shiny interface.
 4. The app will parse your MOZE expenses and display trend charts for any category or sub-category you select.
+5. Since MOZE may include transactions in different currencies, you’ll need to enter your API key for https://api.exchangerate.host/convert to perform currency conversions.
+
+
 
 ## Notes
 The app assumes that each line in your renamed .txt file follows MOZE’s standard export format (date, category, sub-category, amount, etc.).
