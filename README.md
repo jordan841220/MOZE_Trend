@@ -36,5 +36,5 @@ docker container run -d --rm -p 3838:3838 jordan841220/moze-data-analyzer:202505
 ## Notes
 The app assumes that each line in your renamed .txt file follows MOZE’s standard export format (date, category, sub-category, amount, etc.).
 
-![無法顯示](images/image1.png)
+![無法顯示](images/image.png)
 
