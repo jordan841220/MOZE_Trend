@@ -1,3 +1,6 @@
+![LOGO](images/logo.png)
+
+
 # MOZE Trend Visualizer
 
 A containerized **R Shiny** app to visualize expense trends from data exported by the MOZE accounting mobile app. MOZE itself does not provide built-in trend charts, so this tool helps you track how the cost of a specific category (or sub-category) changes over time—for example, how your “lunch” expenses evolve month by month.
